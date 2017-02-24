@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IoT-Beta-App
+  host: IoT-Beta-App
+  disk_quota: 1024M
+  services:
+  - IoT-Beta-App-cloudantNoSQLDB
+  - IoT-Beta-App-iotf-service
